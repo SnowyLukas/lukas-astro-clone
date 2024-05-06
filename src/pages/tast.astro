@@ -17,6 +17,17 @@ import Card from '../components/Card.astro';
             hej<hr />lol så det er altser ikke <strong>en</strong> mere. <small>Ved at jeg er mig</small>
         </p><hr />
         <button class="favorite styled" type="button">Add to favorites</button>
+        <div class="grid">
+          <div>
+            det vil jeg men. Jeg kan klatre. han og hun men det er også en ø med en å.
+
+          </div>
+          <div>
+            det vil jeg men. Jeg kan klatre. han og hun men det er også en ø med en å.
+
+          </div>
+          <div>hej dem er der</div>
+        </div>
     </main>
 </Layout>
 <style>
@@ -41,8 +52,8 @@ import Card from '../components/Card.astro';
   background-color: rgba(220, 0, 0, 1);
   background-image: linear-gradient(
     to top left,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 57, 0, 0.2),
+    rgba(10, 58, 92, 0.2) 30%,
     rgba(0, 0, 0, 0)
   );
   box-shadow:
@@ -59,5 +70,9 @@ import Card from '../components/Card.astro';
     inset -2px -2px 3px rgba(255, 255, 255, 0.6),
     inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
-
+ .grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+ }
 </style>
